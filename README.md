@@ -1,2 +1,0 @@
-# Dame-Mas-Gasolina
-Gas
