@@ -42,10 +42,8 @@ function promedio(){
 }
 
 function Imprimir(){
-    console.log("Total De Datos "+Margen.length);
-    console.log("Valor Maximo De Error "+Maximo);
-    console.log("Valor Minimo "+Minimo);
-    console.log("Promeido De Gas Usado Por Año "+promedio);
-    console.log("Valores Arriba Del Promedio "+ValorMaximo);
-    console.log("Valores Debajo Del Promedio "+ValorMinimo);
+    Console.log("Total De Datos "+Margen.length+"\n"+"Valor Maximo De Error "+Maximo+" Valor Minimo "+Minimo);
+    Console.log("Promeido De Gas Usado Por Año "+promedio);
+    Console.log("Valores Arriba Del Promedio "+ValorMaximo);
+    Console.log("Valores Debajo Del Promedio "+ValorMinimo);
 }
