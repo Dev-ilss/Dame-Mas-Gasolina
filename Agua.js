@@ -4,9 +4,9 @@ var Maximo= Margen[0];
 var Minimo = Margen[0];
 var j, ValorMinimo,ValorMaximo,k;
        
-Busqueda();
-        
+//Ingreso De Datos funcion faltante
 
+Busqueda();
     
 function  Busqueda(){
         
@@ -42,10 +42,10 @@ function promedio(){
 }
 
 function Imprimir(){
-    System.out.println("Total De Datos "+Margen.length);
-    System.out.println("Valor Maximo De Error "+Maximo);
-    System.out.println("Valor Minimo "+Minimo);
-    System.out.println("Promeido De Gas Usado Por Año "+promedio);
-    System.out.println("Valores Arriba Del Promedio "+ValorMaximo);
-    System.out.println("Valores Debajo Del Promedio "+ValorMinimo);
+    console.log("Total De Datos "+Margen.length);
+    console.log("Valor Maximo De Error "+Maximo);
+    console.log("Valor Minimo "+Minimo);
+    console.log("Promeido De Gas Usado Por Año "+promedio);
+    console.log("Valores Arriba Del Promedio "+ValorMaximo);
+    console.log("Valores Debajo Del Promedio "+ValorMinimo);
 }
